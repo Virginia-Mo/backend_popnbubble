@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_teas",
+  "info": {
+    "singularName": "top-tea",
+    "pluralName": "top-teas",
+    "displayName": "Top_tea",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tea": {
+      "type": "string",
+      "required": true
+    },
+    "Flavor": {
+      "type": "string",
+      "required": true
+    },
+    "Pearl": {
+      "type": "string",
+      "required": true
+    },
+    "Photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

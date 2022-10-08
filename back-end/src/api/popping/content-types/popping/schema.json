@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "poppings",
+  "info": {
+    "singularName": "popping",
+    "pluralName": "poppings",
+    "displayName": "Popping"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

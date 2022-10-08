@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formats",
+  "info": {
+    "singularName": "format",
+    "pluralName": "formats",
+    "displayName": "Format"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Size": {
+      "type": "integer",
+      "required": true
+    },
+    "Price": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

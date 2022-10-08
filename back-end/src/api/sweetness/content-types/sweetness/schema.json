@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sweetnesses",
+  "info": {
+    "singularName": "sweetness",
+    "pluralName": "sweetnesses",
+    "displayName": "Sweetness",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Rate": {
+      "type": "integer",
+      "required": false,
+      "default": 50
+    }
+  }
+}

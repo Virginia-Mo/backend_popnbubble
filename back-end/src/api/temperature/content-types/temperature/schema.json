@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temperatures",
+  "info": {
+    "singularName": "temperature",
+    "pluralName": "temperatures",
+    "displayName": "Temperature"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

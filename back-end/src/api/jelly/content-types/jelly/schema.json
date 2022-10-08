@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jellies",
+  "info": {
+    "singularName": "jelly",
+    "pluralName": "jellies",
+    "displayName": "Jelly"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

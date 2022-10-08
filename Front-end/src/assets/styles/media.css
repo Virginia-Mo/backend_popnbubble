@@ -1,0 +1,164 @@
+
+@media screen and (max-width: 1024px){
+/* ----------HOME--------- */
+#mainDivWelcome {
+    margin: 26rem 3rem 0;
+    word-wrap: break-word;
+}
+#aboutContainer {
+        /* margin: 0 40%; */
+        width: 100%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+/* ----------About Page--------- */
+.detailsDiv {
+        flex-direction: column;
+        align-items:center ;
+    }
+/* ------------Nav Bar-------- */
+
+#navBar {
+    height: 14rem;
+    margin: 0 5rem;
+}
+#navBar__container {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 4rem;
+    }
+/* -------------Footer----------- */
+.ball {
+    height: 6.5rem;
+    width: 6.5rem;
+    top: 3.5rem;
+}
+.footer__title {
+    height: 8.5rem;
+    width: 8.5rem;
+   
+}
+.ball::after {
+    top: 103%;
+    left: 88%;
+}
+#footer {
+    position: relative;
+    width: 100vw;
+    margin: 3rem -5rem 12rem;
+}
+.footer__containers {
+    margin: 0 1.5rem;
+}
+#PearlsContainer__footer {
+    position: relative;
+    width: 100vw;
+}
+.footer__content {
+    width: 30vw;
+    position: absolute;
+z-index: 5
+;}
+/* ---------Menu---------- */
+.poppingslist {
+    margin: 0 2rem;
+}
+.swiper {
+    width: auto;
+}
+#teaFlavorsContainer, #pearlJellydiv {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.flavorlist__details {
+    margin: 2.2rem;
+}
+.listDiv {
+    display: flex;
+    flex-wrap:wrap;
+}
+#detailsContainer {
+    padding: 0;
+}
+    }
+
+
+@media screen and (max-width: 768px){
+    /* -------------Footer----------- */
+#Bubble1, #Bubble19, #Bubble18,#Bubble20,#Bubble21,#Bubble22,#Bubble23,#Bubble24,#Bubble25,#Bubble26,#Bubble27,#Bubble28,#Bubble29,#Bubble30,#Bubble31,#Bubble32,#Bubble33,#Bubble34,#Bubble35,#Bubble36,#Bubble37,#Bubble38{
+        display: none;
+    }
+.ball {
+  width: 6rem;
+  height: 6rem;
+top: 4rem;
+}
+.ball::after {
+    top: 146%;
+    left: 87%;
+}
+.footer__title {
+    width: 7rem;
+    height: 7rem;
+} 
+.footer__containers {
+   width: 5%;
+}
+/* -------Nav Bar--------- */
+.cube {
+    width: 7rem;
+}
+#navBar__container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+/* ----------HOME--------- */
+.h1Home {
+    font-size: 7rem;
+}
+.h2Home {
+    font-size: 2.5rem;
+}
+#navBar__container {
+    gap: 10rem;
+}
+.navbar__link {
+    padding: 2rem;
+}
+
+/* --------About------- */
+.descriptionImg, #imgDescription{
+    max-width: 100%;
+}
+#mainTitle {
+    font-size: 5rem;
+}
+/* ----------Menu----------- */
+#topContainer__description {
+    font-size: 1.4rem;
+}
+/* -----Order------- */
+.h1order {
+    word-break: break-word;
+    font-size: 6rem;
+}
+.menucontainer {
+    margin-top: 11rem;
+}
+.formContainer  {
+flex-direction: column;
+padding: 0 0;
+border: none;
+box-shadow: none;
+}
+#formOrder {
+    width: 100%;
+}
+.formTitles {
+    font-size: 2rem;
+}
+}

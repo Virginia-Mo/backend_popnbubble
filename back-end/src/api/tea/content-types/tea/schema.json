@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teas",
+  "info": {
+    "singularName": "tea",
+    "pluralName": "teas",
+    "displayName": "Tea",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "flavors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::flavor.flavor"
+    }
+  }
+}

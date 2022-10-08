@@ -1,0 +1,47 @@
+html {
+  font-size: 10px;
+}
+body {
+  background-image: url("@/assets/imgs/drink.jpg");
+  background-size: 150% 100%;
+  background-repeat: no-repeat;
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+h1 {
+  font-size: 8rem;
+  background-color: bisque;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.menucontainer {
+  width: 70%;
+  margin: auto;
+}
+.borders {
+  border: solid 1px black;
+  border-radius: 20px; 
+    box-shadow: 0.1rem 0.1rem 1.1rem black;
+}
+.background {
+  background-color: #808080c4 ;
+}
+.swiper {
+  width: 123rem;
+  height: 57%;
+}
+
+@media screen and (max-width:1435px){
+  #app {
+          width: 100%;
+      }
+  html, body { 
+              overflow-x: hidden;
+          }
+      
+  }
