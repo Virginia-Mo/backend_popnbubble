@@ -1,0 +1,280 @@
+#bubblesContainer {
+  width: auto;
+}
+.ball {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(
+      circle at 50% 120%,
+      #323232,
+      #0a0a0a 80%,
+      #000000 100%
+    );
+    border: solid 1px black;
+    box-shadow: 0.1rem 0.1rem 0.5rem black;
+  }
+  .ball:before {
+    content: "";
+    position: absolute;
+    background: radial-gradient(
+      circle at 50% 120%,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0) 70%
+    );
+    border-radius: 50%;
+    bottom: 2.5%;
+    left: 5%;
+    opacity: 0.6;
+    height: 100%;
+    width: 90%;
+    -webkit-filter: blur(5px);
+    z-index: 2;
+  }
+  .ball:after {
+    width: 124%;
+    height: 112%;
+    content: "";
+    position: absolute;
+    top: 81%;
+    left: 77%;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle at 50% 50%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8) 14%,
+      rgba(255, 255, 255, 0) 24%
+    );
+    transform: translateX(-80px) translateY(-90px) skewX(-20deg);
+    -webkit-filter: blur(10px);
+  }
+  
+  .ball .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      circle at 50% 50%,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.1) 40%,
+      rgba(0, 0, 0, 0) 50%
+    );
+    transform: rotateX(90deg) translateZ(-150px);
+    z-index: -1;
+  }
+  #Bubble3,#Bubble8,#Bubble11,#Bubble13,#Bubble21,#Bubble23,#Bubble29,#Bubble27,#Bubble32,#Bubble38 {
+    animation: drop 1.5s ease forwards 1;
+  }
+  #Bubble4,#Bubble9,#Bubble14,#Bubble16,#Bubble18,#Bubble26,#Bubble28,#Bubble31,#Bubble33,#Bubble36 {
+    animation: drop 2s ease forwards 1;
+  }
+  #Bubble2,#Bubble5,#Bubble7,#Bubble12,#Bubble17,#Bubble19,#Bubble22,#Bubble25,#Bubble35 {
+    animation: drop 2.5s ease forwards 1;
+  }
+  #Bubble1,#Bubble6,#Bubble10,#Bubble15,#Bubble20,#Bubble24,#Bubble30,#Bubble34,#Bubble37 {
+    animation: drop 3s ease forwards 1;
+  }
+  .Pearls3:hover, .Pearls8:hover, .Pearls11:hover, .Pearls13:hover, .Pearls21:hover, .Pearls23:hover, .Pearls29:hover, .Pearls27:hover, .Pearls32:hover, .Pearls38:hover  {
+    animation: move 0.1s ease forwards 1;
+  }
+  .Pearls4:hover, .Pearls9:hover, .Pearls14:hover, .Pearls16:hover, .Pearls18:hover, .Pearls26:hover, .Pearls28:hover, .Pearls31:hover, .Pearls33:hover, .Pearls36:hover  {
+    animation: move1 0.1s ease forwards 1;
+  }
+  .Pearls2:hover, .Pearls5:hover, .Pearls7:hover, .Pearls12:hover, .Pearls17:hover, .Pearls19:hover, .Pearls22:hover, .Pearls25:hover, .Pearls35:hover {
+    animation: move2 0.1s ease forwards 1;
+  }
+  .Pearls1:hover, .Pearls6:hover, .Pearls10:hover, .Pearls15:hover, .Pearls20:hover, .Pearls24:hover, .Pearls30:hover, .Pearls34:hover, .Pearls37:hover {
+    animation: move3 0.1s ease forwards 1;
+  }
+  @keyframes drop {
+      60% {
+        transform: translateY(95vh);
+      }
+      70% {
+        transform: translateY(80vh);
+      }
+      100% {
+        transform: translateY(93vh);
+      }
+    }
+  @keyframes drop2 {
+      60% {
+        transform: translateY(95vh);
+      }
+      70% {
+        transform: translateY(80vh);
+      }
+      100% {
+        transform: translateY(87vh);
+      }
+    }
+  @keyframes move {
+    from {
+     transform: translateY(0)translateX(0);
+    } to {
+       transform: translateY(-15px) translateX(15px);
+    }
+  }
+  @keyframes move1 {
+    from {
+     transform: translateY(0)translateX(0);
+    } to {
+       transform: translateY(-32px) translateX(-9px);
+    }
+  }
+  @keyframes move2 {
+    from {
+     transform: translateY(0)translateX(0);
+    } to {
+       transform: translateY(15px) translateX(-9px);
+    }
+  }
+  @keyframes move3 {
+    from {
+     transform: translateY(0)translateX(0);
+    } to {
+       transform: translateY(15px) translateX(-8px);
+    }
+  }
+  .Pearls1 {
+    margin: -1.6rem;
+  }
+  .Pearls2 {
+    margin: -1.6rem 5.5%;
+  }
+  .Pearls3{
+    margin: -1.6rem 11%;
+  }
+  .Pearls4 {
+    margin: -1.6rem 16.5%;
+  }
+  .Pearls5{
+    margin: -1.6rem 21%;
+  }
+  .Pearls6 {
+    margin: -1.6rem 26.5%;
+  }
+  .Pearls7 {
+    margin: -1.6rem 32%;
+  }
+  .Pearls8 {
+    margin: -1.6rem 37.5%;
+  }
+  .Pearls9 {
+    margin: -1.6rem 43%;
+  }
+  .Pearls10 {
+    margin: -1.6rem 48.5%;
+  }
+  .Pearls11 {
+    margin: -1.6rem 54%;
+  }
+  .Pearls12 {
+    margin: -1.6rem 60%;
+  }
+  .Pearls13 {
+    margin: -1.6rem 65.5%;
+  }
+  .Pearls14 {
+    margin: -1.6rem 71%;
+  }
+  .Pearls15 {
+    margin: -1.6rem 76.5%;
+  }
+  .Pearls16 {
+    margin: -1.6rem 82%;
+  }
+  .Pearls17 {
+    margin: -1.6rem 87.5%;
+  }
+  .Pearls18 {
+    margin: -1.6rem 92%;
+  }
+  .Pearls19 {
+    margin: -1.6rem 96%;
+  }
+  .Pearls20 {
+    margin: -6.1rem 3%;
+  }
+  .Pearls20:hover {
+    margin: -7.1rem 4%;
+  }
+  .Pearls21 {
+    margin: -6.8rem 8.8%;
+  }
+  .Pearls22 {
+    margin: -6.4rem 14%;
+  }
+  .Pearls23 {
+    margin: -6.4rem 19%;
+  }
+  .Pearls24 {
+    margin: -6.9rem 24%;
+  }
+  .Pearls25 {
+    margin: -6.3rem 29.5%;
+  }
+  .Pearls26 {
+    margin: -6.2rem 34%;
+  }
+  .Pearls27 {
+    margin: -6.7rem 39%;
+  }
+  .Pearls28 {
+    margin: -6.2rem 45%;
+  }
+  .Pearls29 {
+    margin: -6.1rem 50.5%;
+  }
+  .Pearls30 {
+    margin: -6.6rem 56%;
+  }
+  .Pearls31 {
+    margin: -6.4rem 60%;
+  }
+  .Pearls32 {
+    margin: -6.7rem 65%;
+  }
+  .Pearls33 {
+    margin: -6.2rem 70%;
+  }
+  .Pearls34 {
+    margin: -6.8rem 75%;
+  }
+  .Pearls35 {
+    margin: -6rem 80%;
+  }
+  .Pearls36 {
+    margin: -6.4rem 85%;
+  }
+  .Pearls37 {
+    margin: -6.5rem 90%;
+  }
+  .Pearls38 {
+    margin: -6rem 95%;
+  }
+  
+  @media screen and (max-width: 1024px){
+    .ball {
+      height: 6.5rem;
+      width: 6.5rem;
+      top: 3.5rem;
+  }
+  .ball::after {
+    top: 103%;
+    left: 88%;
+}}
+@media screen and (max-width: 768px){
+  #Bubble1, #Bubble19, #Bubble18,#Bubble20,#Bubble21,#Bubble22,#Bubble23,#Bubble24,#Bubble25,#Bubble26,#Bubble27,#Bubble28,#Bubble29,#Bubble30,#Bubble31,#Bubble32,#Bubble33,#Bubble34,#Bubble35,#Bubble36,#Bubble37,#Bubble38{
+    display: none;
+}
+.ball {
+width: 5rem;
+height: 5rem;
+top: 4rem;
+}
+.ball::after {
+top: 158%;
+left: 123%;
+}}
