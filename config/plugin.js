@@ -1,6 +1,7 @@
 module.exports = ({ env }) => ({
-  // ...
+  i18n: true,
   upload: {
+    enabled: true,
     config: {
       provider: 'cloudinary',
       providerOptions: {
