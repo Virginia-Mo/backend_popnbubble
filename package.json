@@ -16,6 +16,7 @@
     "@strapi/plugin-users-permissions": "4.4.3",
     "@strapi/provider-upload-cloudinary": "^4.4.3",
     "@strapi/strapi": "4.4.3",
+    "cloudinary": "^1.32.0",
     "cross-env": "^7.0.3",
     "pg": "^8.6.0",
     "pg-connection-string": "^2.5.0"
